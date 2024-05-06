@@ -1,0 +1,76 @@
+.home-title {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.entry-list {
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+
+.entry {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.entry h2 {
+    color: #333;
+}
+
+.entry p {
+    color: #666;
+    font-size: small;
+}
+
+.btn-edit {
+    margin-right: 10px;
+}
+
+
+
+
+/* Home.css */
+/* Style for the container that should have the scrollbar */
+.home-container {
+    max-height: 90vh;
+    /* Adjust based on your design needs */
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+}
+
+/* Webkit scrollbar styles */
+.home-container::-webkit-scrollbar {
+    width: 8px;
+    /* Scrollbar width */
+}
+
+.home-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Track color */
+}
+
+.home-container::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Handle color */
+    border-radius: 4px;
+}
+
+.home-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Handle color on hover */
+}
+
+/* Optional: scrollbar styles for Firefox */
+.home-container {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    /* thumb and track color */
+}
+
+.pp {
+    color: orange;
+}
